@@ -52,7 +52,7 @@ st.divider()
 # ─────────────────────────────────────────────────────────────
 # SIDEBAR — PATIENT INPUT VITALS
 # ─────────────────────────────────────────────────────────────
-st.sidebar.header("📋 Patient Clinical Inputs")
+st.sidebar.header("📋 Personal Clinical Inputs")
 
 age = st.sidebar.slider("Age (Years)", 18, 80, 45)
 gender_label = st.sidebar.radio("Gender", ["Female", "Male"])
@@ -307,4 +307,4 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
+
